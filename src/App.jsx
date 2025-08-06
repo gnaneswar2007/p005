@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 class App extends Component {
   render() {
-    const BASEURL=import.meta.ev.BASE_URL
+    const BASEURL = import.meta.env.BASE_URL;
     return (
       <>
         <header>
@@ -18,7 +18,7 @@ class App extends Component {
             <label>Image 02</label>
           </div>
           <div className='card'>
-            <img src={`${BASEURL}3.jpeg`} alt='' />
+            <img src={`${BASEURL}3.jpeg`}alt='' />
             <label>Image 03</label>
           </div>
           <div className='card'>
@@ -34,7 +34,7 @@ class App extends Component {
             <label>Image 06</label>
           </div>
           <div className='card'>
-            <img src={`${BASEURL}7.jpeg`}alt='' />
+            <img src={`${BASEURL}7.jpeg`} alt='' />
             <label>Image 07</label>
           </div>
           <div className='card'>
